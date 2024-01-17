@@ -185,6 +185,9 @@ ul {
     color: #000;
     display: flex;
     transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    @media screen and (max-width: 940px) {
+      color: #ffffff;
+    }
   }
   &::after {
     position: absolute;
@@ -198,6 +201,9 @@ ul {
     color: #000;
     display: flex;
     transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    @media screen and (max-width: 940px) {
+      color: #ffffff;
+    }
   }
   &:hover {
     &::before {
