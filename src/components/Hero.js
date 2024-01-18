@@ -90,7 +90,7 @@ const Hero = () => {
             <div className="intro">
                 <div className="intro__block">
                     <h2 className='intro__block--item1' ref={introsplttext}>
-                        Reinvent
+                        Visionary
                     </h2>
                 </div>
                 <div className="intro__block" ref={introsplttext2}>
@@ -118,7 +118,7 @@ const Hero = () => {
                     <div className="container">
                         <div className="heroBanner__heading">
                             <h1 className='span-lines' ref={spanword}>
-                                Award winning<br/>Creative Direction<br/>& Visual Design
+                                Hands on Creative<br/>Direction, I aim to<br/>win awards with <br/>everything I do.
                             </h1>
                         </div>
                         <div className="heroBanner__right">

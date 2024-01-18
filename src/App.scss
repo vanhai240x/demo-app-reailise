@@ -595,7 +595,7 @@ main {
         padding: 20px 30px;
         right: 21%;
         left: auto;
-        bottom: 285px;
+        bottom: 340px;
       }
       @media screen and (max-width: 1030px) {
         justify-content: flex-end;
@@ -616,7 +616,7 @@ main {
     position: absolute;
     right: 0;
     bottom: 0;
-    max-width: 450px;
+    max-width: 500px;
     padding: 30px;
     // overflow: hidden;
     border-radius: 40px;
@@ -1592,7 +1592,7 @@ main {
     width: var(--size);
     height: var(--size);
     filter: blur(calc(var(--size) / 5));
-    background: linear-gradient(292.7deg, #FFAC4B 14.54%, #FFAC4B 84.59%);
+    background: linear-gradient(292.7deg, #FFEB3B 14.54%, #FFC107 84.59%);
     animation: rotate var(--speed) alternate infinite;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     opacity: 0.5;
