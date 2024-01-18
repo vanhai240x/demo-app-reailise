@@ -20,6 +20,9 @@ import Neom from './components/Neom';
 import Gea from './components/Gea';
 import Brickblock from './components/Brickblock';
 import Kenjo from './components/Kenjo';
+import Liqid from './components/Liqid';
+import Terramate from './components/Terramate';
+import Embargo from './components/Embargo';
 
 
 function App() {
@@ -69,6 +72,15 @@ function App() {
           </Route>
           <Route path="/wefox">
             <Wefox />
+          </Route>
+          <Route path="/liqid">
+            <Liqid />
+          </Route>
+          <Route path="/terramate">
+            <Terramate />
+          </Route>
+          <Route path="/embargo">
+            <Embargo />
           </Route>
           <Route path="/portfolio">
             <PortfolioPage />

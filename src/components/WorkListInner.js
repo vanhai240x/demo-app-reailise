@@ -70,6 +70,27 @@ const WorkListImagesInner = ({
             srcmobile: '/neom-banner2.png',
             path: '/neom'
         },
+        {
+            id: 8,
+            name: 'LIQID',
+            src: '/liqid.png',
+            srcmobile: '/liqid-mobile.png',
+            path: '/liqid'
+        },
+        {
+            id: 9,
+            name: 'Terramate',
+            src: '/terramate.png',
+            srcmobile: '/terramate-mobile.png',
+            path: '/terramate'
+        },
+        {
+            id: 10,
+            name: 'Embargo',
+            src: '/embargo.png',
+            srcmobile: '/embargo-mobile.png',
+            path: '/embargo'
+        },
         // {
         //     id: 8,
         //     name: 'Brickblock',

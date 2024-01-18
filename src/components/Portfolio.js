@@ -31,21 +31,21 @@ const Portfolio = ({
     works = [
         {
             id: 0,
-            name: 'Wefox',
-            src: '/wefox.png',
-            srcmobile: '/wefox-mobile.png'
+            name: 'LIQID',
+            src: '/liqid.png',
+            srcmobile: '/liqid-mobile.png'
         },
         {
             id: 1,
-            name: 'Theorem',
-            src: '/THEOREM.png',
-            srcmobile: '/theorem-mobile.png'
+            name: 'Terramate',
+            src: '/terramate.png',
+            srcmobile: '/terramate-mobile.png'
         },
         {
             id: 2,
-            name: 'Mineiros',
-            src: '/MINEIROS.png',
-            srcmobile: '/mineiros-mobile.png'
+            name: 'Embargo',
+            src: '/embargo.png',
+            srcmobile: '/embargo-mobile.png'
         },
     ],
 }) => {

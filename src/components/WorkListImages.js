@@ -30,18 +30,18 @@ const WorkListImages = ({
     works = [
         {
             id: 0,
-            src: '/wefox.png',
-            path:'/wefox'
+            src: '/liqid.png',
+            path:'/liqid'
         },
         {
             id: 1,
-            src: '/THEOREM.png',
-            path:'/theorem'
+            src: '/terramate.png',
+            path:'/terramate'
         },
         {
             id: 2,
-            src: '/MINEIROS.png',
-            path:'/'
+            src: '/embargo.png',
+            path:'/embargo'
         },
     ],
     onNewCurrentWorkIndex,
