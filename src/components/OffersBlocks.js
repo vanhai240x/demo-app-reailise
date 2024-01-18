@@ -59,73 +59,99 @@ const OffersBlocks = () => {
     }, []);
     return (
         <div className='offerBlocks'>
-            <div className="offerBlocks__wrapper">
-                <div className="offerBlocks__item item1">
-                    <h4>
-                        Design Systems
-                    </h4>
-                </div>
-                <div className="offerBlocks__item item2">
-                    <h4>
-                        Creative Direction
-                    </h4>
-                </div>
-                <div className="offerBlocks__item item3">
-                    <h4>
-                        Name Design
-                    </h4>
-                </div>
-                <div className="offerBlocks__item item4">
-                    <h4>
-                        Hands on UI & UX Design
-                    </h4>
-                </div>
-                <div className="offerBlocks__item item5">
-                    <h4>
-                        Nomad enthusiast 
-                    </h4>
-                </div>
-                <div className="offerBlocks__item item6">
-                    <h4>
-                        Brand Strategy
-                    </h4>
-                </div>
-                <div className="offerBlocks__item item7">
-                    <h4>
-                        Developer Management
-                    </h4>
-                </div>
-                <div className="offerBlocks__item item8">
-                    <h4>
-                        Designer Inspirer
-                    </h4>
-                </div>
-                <div className="offerBlocks__item item9">
-                    <h4>
-                        Team Leader
-                    </h4>
-                </div>
-                <div className="offerBlocks__item item10">
-                    <h4>
-                        3D Design Concepts & Management
-                    </h4>
-                </div>
-                <div className="offerBlocks__item item11">
-                    <h4>
-                        Brand Tone Of Voice
-                    </h4>
-                </div>
-                <div className="offerBlocks__item item12">
-                    <h4>
-                        Product Design
-                    </h4>
-                </div>
-                <div className="offerBlocks__item item13">
-                    <h4>
-                        Motion & Interaction Direction
-                    </h4>
-                </div>
-            </div>
+            <MouseParallaxContainer globalFactorX={0.3} globalFactorY={0.3} className="offerBlocks__wrapper">
+                <MouseParallaxChild factorX={0.3} factorY={0.7}>
+                    <div className="offerBlocks__item item1">
+                        <h4>
+                            Design Systems
+                        </h4>
+                    </div>
+                </MouseParallaxChild>
+                <MouseParallaxChild factorX={0.2} factorY={0.5}>
+                    <div className="offerBlocks__item item2">
+                        <h4>
+                            Creative Direction
+                        </h4>
+                    </div>
+                </MouseParallaxChild>
+                <MouseParallaxChild factorX={0.4} factorY={0.6}>
+                    <div className="offerBlocks__item item3">
+                        <h4>
+                            Name Design
+                        </h4>
+                    </div>
+                </MouseParallaxChild>
+                <MouseParallaxChild factorX={0.1} factorY={0.5}>
+                    <div className="offerBlocks__item item4">
+                        <h4>
+                            Hands on UI & UX Design
+                        </h4>
+                    </div>
+                </MouseParallaxChild>
+                <MouseParallaxChild factorX={0.2} factorY={0.7}>
+                    <div className="offerBlocks__item item5">
+                        <h4>
+                            Nomad enthusiast
+                        </h4>
+                    </div>
+                </MouseParallaxChild>
+                <MouseParallaxChild factorX={0.4} factorY={0.5}>
+                    <div className="offerBlocks__item item6">
+                        <h4>
+                            Brand Strategy
+                        </h4>
+                    </div>
+                </MouseParallaxChild>
+                <MouseParallaxChild factorX={0.3} factorY={0.8}>
+                    <div className="offerBlocks__item item7">
+                        <h4>
+                            Developer Management
+                        </h4>
+                    </div>
+                </MouseParallaxChild>
+                <MouseParallaxChild factorX={0.2} factorY={0.5}>
+                    <div className="offerBlocks__item item8">
+                        <h4>
+                            Designer Inspirer
+                        </h4>
+                    </div>
+                </MouseParallaxChild>
+                <MouseParallaxChild factorX={0.5} factorY={0.9}>
+                    <div className="offerBlocks__item item9">
+                        <h4>
+                            Team Leader
+                        </h4>
+                    </div>
+                </MouseParallaxChild>
+                <MouseParallaxChild factorX={0.4} factorY={0.6}>
+                    <div className="offerBlocks__item item10">
+                        <h4>
+                            3D Design Concepts & Management
+                        </h4>
+                    </div>
+                </MouseParallaxChild>
+                <MouseParallaxChild factorX={0.1} factorY={0.8}>
+                    <div className="offerBlocks__item item11">
+                        <h4>
+                            Brand Tone Of Voice
+                        </h4>
+                    </div>
+                </MouseParallaxChild>
+                <MouseParallaxChild factorX={0.4} factorY={0.7}>
+                    <div className="offerBlocks__item item12">
+                        <h4>
+                            Product Design
+                        </h4>
+                    </div>
+                </MouseParallaxChild>
+                <MouseParallaxChild factorX={0.3} factorY={0.5}>
+                    <div className="offerBlocks__item item13">
+                        <h4>
+                            Motion & Interaction Direction
+                        </h4>
+                    </div>
+                </MouseParallaxChild>
+            </MouseParallaxContainer>
             <div className="offerBlocks__mobile">
                 <svg width="992" height="441" viewBox="0 0 992 441" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_b_1_4007)">

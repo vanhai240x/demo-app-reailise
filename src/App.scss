@@ -1841,18 +1841,35 @@ main {
   }
   &__wrapper {
     position: relative;
-    max-width: 1140px;
-    width: 100%;
+    width: 1140px;
     margin: 0 auto;
-    min-height: 560px;
+    min-height: 320px;
     overflow: unset !important;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    > div {
+      height: 70px;
+    }
+    @media screen and (max-width: 1140px) {
+      margin-left: calc((100vw - 1200px) / 2);
+    }
+    @media screen and (max-width: 1030px) {
+      transform: scale(.9);
+    }
+    @media screen and (max-width: 940px) {
+      transform: scale(.8);
+    }
+    @media screen and (max-width: 768px) {
+      transform: scale(.7);
+    }
     @media screen and (max-width: 575px) {
       display: none;
     }
   }
   &__item {
-    position: absolute;
+    display: inline-flex;
     padding: 0 40px;
     font-family: "Gellix Theorem";
     font-weight: 500;
@@ -1866,52 +1883,38 @@ main {
       font-weight: 500;
     }
     &.item1 {
-      top: 0;
-      left: 12%;
-      transform: rotate(-30deg) !important;
-      z-index: 3;
+      transform: rotate(-30deg) translate(50%, 2%) !important;
       @media screen and (max-width: 768px) {
         left: -3%;
       }
     }
     &.item2 {
-      top: -8%;
-      left: 28%;
+      transform: translate(20%, -143%) !important;
       z-index: 2;
-      @media screen and (max-width: 768px) {
-      }
     }
     &.item3 {
-      top: 5%;
-      left: 30%;
-      transform: rotate(-15deg) !important;
+      transform: rotate(-15deg) translate(-62%, -86%) !important;
       @media screen and (max-width: 768px) {
         top: 3%;
         left: 26%;
       }
     }
     &.item4 {
-      top: 8%;
-      left: 44%;
-      z-index: 2;
+      transform: translate(-78%, 0%) !important;
       @media screen and (max-width: 768px) {
         top: 9%;
         left: 43%;
       }
     }
     &.item5 {
-      top: 2%;
-      right: 15%;
-      transform: rotate(11.161deg) !important;
+      transform: rotate(11.161deg) translate(300%, -373%) !important;
       @media screen and (max-width: 768px) {
         top: -3%;
         right: -10%;
       }
     }
     &.item6 {
-      top: 26%;
-      left: 30%;
-      z-index: 3;
+      transform: translate(35%, 0%) !important;
       @media screen and (max-width: 768px) {
         top: 23%;
         left: 14%;
@@ -1920,7 +1923,7 @@ main {
     &.item7 {
       top: 24%;
       left: 47%;
-      transform: rotate(6.9deg) !important;
+      transform: rotate(6.9deg) translate(20%, -15%) !important;
       z-index: 2;
       @media screen and (max-width: 768px) {
         top: 21%;
@@ -1928,54 +1931,37 @@ main {
       }
     }
     &.item8 {
-      top: 31%;
-      left: 70%;
-      transform: rotate(15deg) !important;
-      z-index: 1;
+      transform: rotate(15deg) translate(17%, 7%) !important;
       @media screen and (max-width: 768px) {
         left: 50%;
       }
     }
     &.item9 {
-      top: 30%;
-      right: 1%;
-      transform: rotate(30deg) !important;
-      z-index: 0;
+      transform: rotate(30deg) translate(-11%, 36%) !important;
       @media screen and (max-width: 768px) {
         right: -7%;    
       }
     }
     &.item10 {
-      top: 44%;
-      left: 9%;
-      transform: rotate(-15deg) !important;
-      z-index: 7;
+      transform: rotate(-15deg) translate(-22%, -3%) !important;
       @media screen and (max-width: 768px) {
         left: -13%;
       }
     }
     &.item11 {
-      top: 46%;
-      left: 38%;
-      transform: rotate(-8.07deg) !important;
+      transform: rotate(-8.07deg) translate(-45%, 3%) !important;
       @media screen and (max-width: 768px) {
       }
     }
     &.item12 {
-      top: 40%;
-      right: 25%;
-      transform: rotate(45deg) !important;
-      z-index: 1;
+      transform: rotate(45deg) translate(-43%, 147%) !important;
       @media screen and (max-width: 768px) {
         top: 31%;
         right: 58%;    
       }
     }
     &.item13 {
-      top: 53%;
-      right: 12%;
-      transform: rotate(-13.531deg) !important;
-      z-index: 2;
+      transform: rotate(-13.531deg) translate(80%, 106%) !important;
       @media screen and (max-width: 768px) {
         top: 60%;
         right: 36%;
