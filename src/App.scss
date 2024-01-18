@@ -287,12 +287,12 @@ main {
 
 @keyframes rotate {
   0% {
-    transform: rotate(0deg) translateX(0);
+    transform: rotate(0deg) translateX(0) scale(1);
     opacity: 0.7;
   }
 
   100% {
-    transform: rotate(360deg) translateX(40%);
+    transform: rotate(360deg) translateX(40%) scale(1.5);
     opacity: 0.5;
   }
 }
@@ -307,13 +307,13 @@ main {
 .gradient,
 .gradient2 {
   --size: 750px;
-  --speed: 7s;
+  --speed: 3.5s;
   --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
   position: absolute;
   width: var(--size);
   height: var(--size);
   filter: blur(calc(var(--size) / 5));
-  background: linear-gradient(292.7deg, #FFAC4B 14.54%, #FFAC4B 84.59%);
+  background: linear-gradient(292.7deg, #ff9b26 14.54%, #FFAC4B 84.59%);
   animation: rotate var(--speed) alternate infinite;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   opacity: 0.5;
@@ -553,7 +553,20 @@ main {
         display: none;
       }
     }
+
+    @keyframes tagRotate {
+      0% {
+        transform: rotate(-15deg) translateX(0%);
+      }
+    
+      100% {
+        transform: rotate(-15deg) translateX(10%);
+      }
+    }
+
     &.tag_2 {
+      // --speed: 1s;
+      // animation: tagRotate var(--speed) alternate infinite;
       .heroBanner__textbox {
         transform: rotate(-15deg);
         padding: 20px 30px;
@@ -1443,11 +1456,6 @@ main {
       border-top-right-radius: 160px;
       border-bottom-right-radius: 160px;
       border: 0.5px solid #000;
-      @media screen and (max-width: 575px) {
-        background: rgba(34, 32, 30, 0.3);
-        backdrop-filter: blur(3.5px);
-        border-radius: 30px;
-      }
     }
     button {
       position: relative;
@@ -1854,6 +1862,9 @@ main {
     border: 0.5px solid #000;
     background: rgba(255, 255, 255, 0.30);
     backdrop-filter: blur(3.5px);
+    h4 {
+      font-weight: 500;
+    }
     &.item1 {
       top: 0;
       left: 12%;
@@ -2003,7 +2014,8 @@ main {
     @media screen and (max-width: 575px) {
       display: block;
       svg {
-        width: 100%;
+        width: 140%;
+        margin-left: -20%;
       }
     }
   }
@@ -2130,7 +2142,7 @@ main {
         display: flex;
         width: 100%;
         justify-content: flex-end;
-        margin-bottom: 65px;
+        margin-bottom: 25px;
       }
       img {
         @media screen and (max-width: 575px) {
@@ -2177,6 +2189,7 @@ main {
         @media screen and (max-width: 1030px) {
           margin-bottom: 20px;
           transform: translateY(30%);
+          opacity: 0;
         }
         @media screen and (max-width: 768px) {
           white-space: normal;
@@ -2196,6 +2209,7 @@ main {
         @media screen and (max-width: 1030px) {
           margin-bottom: 20px;
           transform: translateY(30%);
+          opacity: 0;
         }
         @media screen and (max-width: 575px) {
           font-weight: 500;
@@ -2228,6 +2242,7 @@ main {
           font-size: 15px;
           line-height: 22px;
           transform: translateY(30%);
+          opacity: 0;
         }
       }
     }
@@ -2242,9 +2257,6 @@ main {
       backdrop-filter: blur(9.5px);
       border-radius: 110px;
       @media screen and (max-width: 1030px) {
-        background: rgba(34, 32, 30, 0.3);
-        backdrop-filter: blur(17px);
-        // border: 1px solid rgba($color: #8e8e8e, $alpha: 0.6);
         border-radius: 14px;
       }
     }
