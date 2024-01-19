@@ -1503,7 +1503,7 @@ main {
   max-width: 1370px;
   width: 100%;
   margin: 0 auto;
-  padding: 300px 30px 100px;
+  padding: 0 30px 100px;
   display: flex;
   justify-content: flex-end;
   @media screen and (max-width: 1440px) {
@@ -2164,6 +2164,7 @@ main {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      min-width: 330px;
       @media screen and (max-width: 1030px) {
         justify-content: flex-start;
       }

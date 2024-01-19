@@ -23,7 +23,7 @@ const Ethos = () => {
                 width: 0,
                 scrollTrigger: {
                     trigger: elem,
-                    start: "top center",
+                    start: "-300px center",
                     end: 'bottom center',
                     scrub: true
                 }

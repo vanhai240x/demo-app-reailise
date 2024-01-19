@@ -103,7 +103,7 @@ const WhyUs = () => {
           opacity: 1,
           scrollTrigger: {
             trigger: elem,
-            start: "top center",
+            start: "-100px center",
             end: 'bottom center',
           }
         });
@@ -114,7 +114,7 @@ const WhyUs = () => {
           opacity: 1,
           scrollTrigger: {
             trigger: elem,
-            start: "top center",
+            start: "-100px center",
             end: 'bottom center',
           }
         });
@@ -125,7 +125,7 @@ const WhyUs = () => {
           opacity: 1,
           scrollTrigger: {
             trigger: elem,
-            start: "top center",
+            start: "-100px center",
             end: 'bottom center',
           }
         });
@@ -136,7 +136,7 @@ const WhyUs = () => {
           opacity: 1,
           scrollTrigger: {
             trigger: elem,
-            start: "top center",
+            start: "-100px center",
             end: 'bottom center',
           }
         });
@@ -147,7 +147,7 @@ const WhyUs = () => {
           opacity: 1,
           scrollTrigger: {
             trigger: elem,
-            start: "top center",
+            start: "-100px center",
             end: 'bottom center',
           }
         });
@@ -212,7 +212,10 @@ const WhyUs = () => {
             </div>
             <div className="whyus__col--text">
               <p>
-                As a genuine craft designer, my expertise stems from a pixel-perfect foundation in digital design. I have a broad range of experience, spanning creative pitches, intricate product design, and comprehensive 360-degree development in branding, web, and product. I’m great at brand strategy, and able to create a brand from scratch that truly aligns with the values of a company.
+                As a genuine craft designer, my expertise stems from a pixel-perfect foundation in digital design. I have a broad range of experience, spanning creative pitches, intricate product design, and comprehensive 360-degree development in branding, web, and product. 
+              </p>
+              <p>
+                I’m great at brand strategy, and able to create a brand from scratch that truly aligns with the values of a company.
               </p>
             </div>
 
