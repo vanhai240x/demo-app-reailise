@@ -40,8 +40,8 @@ const WorkListImages = ({
         },
         {
             id: 2,
-            src: '/embargo.png',
-            path:'/embargo'
+            src: '/wefox.png',
+            path:'/wefox'
         },
     ],
     onNewCurrentWorkIndex,

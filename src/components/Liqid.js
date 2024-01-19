@@ -1,6 +1,6 @@
 import React, { useRef, useLayoutEffect } from 'react'
 import liqidbanner1 from '../assets/images/liqid-banner1.png'
-import liqidbanner2 from '../assets/images/liqid-banner2.png'
+import liqidbanner2 from '../assets/images/liqid-banner2.svg'
 import liqidbanner3 from '../assets/images/liqid-banner3.png'
 import liqidmobile1 from '../assets/images/liqid-mobile1.png'
 import liqidmobile2 from '../assets/images/liqid-mobile2.png'

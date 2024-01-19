@@ -15,81 +15,81 @@ gsap.registerPlugin(ScrollTrigger);
 const WorkListImagesInner = ({
     works = [
         {
-            id: 0,
-            name: 'Wefox',
-            src: '/wefox.png',
-            srcmobile: '/wefox-mobile.png',
-            path: '/wefox'
-        },
-        {
             id: 1,
-            name: 'Theorem',
-            src: '/THEOREM.png',
-            srcmobile: '/theorem-mobile.png',
-            path: '/theorem'
-        },
-        {
-            id: 2,
-            name: 'Mineiros',
-            src: '/MINEIROS.png',
-            srcmobile: '/mineiros-mobile.png',
-            path: '/'
-        },
-        {
-            id: 3,
-            name: 'Gea',
-            src: '/gea-thumb.png',
-            srcmobile: '/gea-mobile.png',
-            path: '/gea'
-        },
-        {
-            id: 4,
-            name: 'Toyota',
-            src: '/toyota-thumb.png',
-            srcmobile: '/toyota-mobile.png',
-            path: '/toyota'
-        },
-        {
-            id: 5,
-            name: 'Kenjo',
-            src: '/kenjo-thumb.png',
-            srcmobile: '/kenjo-mobile.png',
-            path: '/kenjo'
-        },
-        {
-            id: 6,
-            name: 'Misterspex',
-            src: '/misterspex-thumb.png',
-            srcmobile: '/misterspex-mobile.png',
-            path: '/misterspex'
-        },
-        {
-            id: 7,
-            name: 'Neom',
-            src: '/neom-thumb.png',
-            srcmobile: '/neom-banner2.png',
-            path: '/neom'
-        },
-        {
-            id: 8,
             name: 'LIQID',
             src: '/liqid.png',
             srcmobile: '/liqid-mobile.png',
             path: '/liqid'
         },
         {
-            id: 9,
+            id: 2,
             name: 'Terramate',
             src: '/terramate.png',
             srcmobile: '/terramate-mobile.png',
             path: '/terramate'
         },
         {
-            id: 10,
+            id: 3,
+            name: 'Wefox',
+            src: '/wefox.png',
+            srcmobile: '/wefox-mobile.png',
+            path: '/wefox'
+        },
+        {
+            id: 4,
+            name: 'Theorem',
+            src: '/THEOREM.png',
+            srcmobile: '/theorem-mobile.png',
+            path: '/theorem'
+        },
+        {
+            id: 5,
             name: 'Embargo',
             src: '/embargo.png',
             srcmobile: '/embargo-mobile.png',
             path: '/embargo'
+        },
+        // {
+        //     id: 2,
+        //     name: 'Mineiros',
+        //     src: '/MINEIROS.png',
+        //     srcmobile: '/mineiros-mobile.png',
+        //     path: '/'
+        // },
+        {
+            id: 6,
+            name: 'Gea',
+            src: '/gea-thumb.png',
+            srcmobile: '/gea-mobile.png',
+            path: '/gea'
+        },
+        {
+            id: 7,
+            name: 'Toyota',
+            src: '/toyota-thumb.png',
+            srcmobile: '/toyota-mobile.png',
+            path: '/toyota'
+        },
+        {
+            id: 8,
+            name: 'Kenjo',
+            src: '/kenjo-thumb.png',
+            srcmobile: '/kenjo-mobile.png',
+            path: '/kenjo'
+        },
+        {
+            id: 9,
+            name: 'Misterspex',
+            src: '/misterspex-thumb.png',
+            srcmobile: '/misterspex-mobile.png',
+            path: '/misterspex'
+        },
+        {
+            id: 10,
+            name: 'Neom',
+            src: '/neom-thumb.png',
+            srcmobile: '/neom-banner2.png',
+            path: '/neom'
         },
         // {
         //     id: 8,

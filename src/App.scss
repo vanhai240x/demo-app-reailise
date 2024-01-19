@@ -376,7 +376,7 @@ main {
       }
     }
     img {
-      max-width: 475px;
+      max-width: 561px;
       transform: translateY(105%);
       margin-left: 8px;
       @media screen and (max-width: 575px) {
@@ -444,8 +444,16 @@ main {
       position: relative;
       width: 100%;
       z-index: 2;
+      font-size: 90px;
+      line-height: 100px;
       @media screen and (max-width: 1030px) {
         max-width: 100%;
+        font-size: 70px;
+        line-height: 80px;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 54px;
+        line-height: 62px;
       }
       @media screen and (max-width: 575px) {
         font-weight: 500;
@@ -529,7 +537,7 @@ main {
       margin-top: 0;
     }
     @media screen and (max-width: 575px) {
-      margin-top: -80px;
+      margin-top: -40px;
     }
     &.tag_1 {
       position: relative;
@@ -2654,7 +2662,10 @@ main {
   }
   &.bottomMargin {
     margin-bottom: 0;
-    padding-bottom: 150px;
+    padding-bottom: 250px;
+    @media screen and (max-width: 768px) {
+      padding-bottom: 300px;
+    }
   }
   &__banner {
     margin-bottom: 60px;

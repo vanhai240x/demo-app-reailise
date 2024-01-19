@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import eye from '../assets/images/eye.svg'
-import logo from '../assets/images/logo-black.svg'
+import logo from '../assets/images/logo-intro.svg'
 import herograd from '../assets/images/grad-mouse.png'
 import Splitting from "splitting";
 import { gsap } from "gsap";
@@ -90,17 +90,17 @@ const Hero = () => {
             <div className="intro">
                 <div className="intro__block">
                     <h2 className='intro__block--item1' ref={introsplttext}>
-                        Visionary
+                        Crafty
                     </h2>
                 </div>
                 <div className="intro__block" ref={introsplttext2}>
                     <h2 className='intro__block--item2'>
-                        Reimagine
+                        Conceptual
                     </h2>
                 </div>
                 <div className="intro__block" ref={introsplttext3}>
                     <h2 className='intro__block--item3'>
-                        Rethink
+                        Catalystic
                     </h2>
                 </div>
                 <div className="intro__block">
@@ -133,9 +133,7 @@ const Hero = () => {
             <Parallax speed={5} className='heroBanner__parallaxbox'>
                 <div className="heroBanner__textbox">
                     <p>
-                        A tech & ai enthusiast that is obsessed with creating beautiful aesthetics that not only look good,
-                        but serve a purpose and drive real value to people A true team leader, I’ve been known to inspire
-                        others into creating their best work yet, with aiming to win awards with what we do, always.
+                        A hands-on leader, I dive into design when needed, inspiring and cultivating a happy team. Together, we create brands, websites, and products that not only defy norms but redefine excellence in aesthetics, functionality, and unparalleled value.
                     </p>
                 </div>
             </Parallax>

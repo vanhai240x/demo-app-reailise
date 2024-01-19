@@ -43,9 +43,9 @@ const Portfolio = ({
         },
         {
             id: 2,
-            name: 'Embargo',
-            src: '/embargo.png',
-            srcmobile: '/embargo-mobile.png'
+            name: 'Wefox',
+            src: '/wefox.png',
+            srcmobile: '/wefox-mobile.png'
         },
     ],
 }) => {
