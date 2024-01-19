@@ -33,27 +33,23 @@ const WorkWithUs = () => {
                 <div className="workwithus__content">
                     <div className='workwithus__content--title' id='target' ref={splttext}>
                         <div className="line">
-                            We are future-orientated and thrive
+                            I am future-orientated and thrive in
                             <div className="mask" ref={mask}></div>
                         </div>
                         <div className="line">
-                            in complexity as we are problem-
+                            complexity. I’m a problem-solver at
                             <div className="mask" ref={mask}></div>
                         </div>
                         <div className="line">
-                            solvers at our core. Our aim is to
+                            our core. My aim is to win awards
                             <div className="mask" ref={mask}></div>
                         </div>
                         <div className="line">
-                            win awards and create industry-
+                            and create industry-defining
                             <div className="mask" ref={mask}></div>
                         </div>
                         <div className="line">
-                            defining solutions across mobile
-                            <div className="mask" ref={mask}></div>
-                        </div>
-                        <div className="line">
-                            and web.
+                            solutions across mobile and web.
                             <div className="mask" ref={mask}></div>
                         </div>
                     </div>

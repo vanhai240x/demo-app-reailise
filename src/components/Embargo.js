@@ -217,7 +217,7 @@ const Embargo = () => {
                 </div>
             </div>
 
-            <div className="mobileScreen">
+            <div className="mobileScreen mt0">
                 <div className="container">
                     <div className="mobileScreen__wrapper--custom">
                         <div className="mobileScreen__wrapper--custom--item" style={{ textAlign: 'center' }}>

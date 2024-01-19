@@ -835,7 +835,6 @@ main {
         font-weight: 500;
         font-size: 20px;
         line-height: 47px;
-        color: white;
         padding-left: 10px;
         transform: translateY(60px);
         opacity: 0;
@@ -1570,7 +1569,7 @@ main {
     }
   }
   @media screen and (max-width: 575px) {
-    padding: 100px 20px 100px;
+    padding: 100px 20px 240px;
   }
 }
 .TextScroll .word {
@@ -2663,10 +2662,7 @@ main {
   }
   &.bottomMargin {
     margin-bottom: 0;
-    padding-bottom: 250px;
-    @media screen and (max-width: 768px) {
-      padding-bottom: 300px;
-    }
+    padding-bottom: 100px;
   }
   &__banner {
     margin-bottom: 60px;
@@ -2706,6 +2702,7 @@ main {
 .mobileScreen {
   position: relative;
   margin-bottom: 230px;
+  margin-top: 470px;
   &__wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -2739,6 +2736,13 @@ main {
       }
     }
   }
+  @media screen and (max-width: 1030px) {
+    margin-top: 0;
+  }
+}
+
+.mt0 {
+  margin-top: 0 !important;
 }
 
 .img-slide {
@@ -2756,10 +2760,11 @@ main {
 }
 
 .innerNav {
-  padding: 0 0 250px;
+  padding: 0 0 450px;
   color: #fff;
   @media screen and (max-width: 768px) {
     padding-bottom: 200px;
+    margin-bottom: 200px;
   }
   @media screen and (max-width: 940px) {
     .link::before {
