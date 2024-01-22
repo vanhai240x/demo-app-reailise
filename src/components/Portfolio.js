@@ -105,7 +105,7 @@ const Portfolio = ({
                     stagger: .1,
                     scrollTrigger: {
                         trigger: '.portfolio__mobile .swiper-pagination',
-                        start: "top center",
+                        start: "-300px center",
                     }
                 });
                 gsap.from('.portfolio__mobile .portfolio__clients', {
@@ -116,7 +116,7 @@ const Portfolio = ({
                     stagger: .1,
                     scrollTrigger: {
                         trigger: '.portfolio__mobile .portfolio__clients',
-                        start: "top center",
+                        start: "-300px center",
                     }
                 });
                 gsap.to('.portfolio__mobile .portfolio__clients--cta', {
@@ -127,7 +127,7 @@ const Portfolio = ({
                     stagger: .1,
                     scrollTrigger: {
                         trigger: '.portfolio__mobile .portfolio__clients',
-                        start:'top bottom'
+                        start:'-300px bottom'
                     }
                 });
             }, 1000);
@@ -179,6 +179,7 @@ const Portfolio = ({
                     ))}
                     <div className="swiper-pagination"></div>
                 </Swiper>
+                
                 <div className="portfolio__clients">
                     <div className="portfolio__clients--slideAnim">
                         <Marquee speed={50}>
