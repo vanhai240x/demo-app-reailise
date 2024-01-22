@@ -1,18 +1,20 @@
 // Font import
 @font-face {
   font-family: "Gellix Theorem";
-  src: url("../fonts/GellixTheorem-Medium.otf") format("truetype");
+  src: url('../fonts/GellixTheorem-Medium.ttf') format('truetype'), url("../fonts/GellixTheorem-Medium.otf") format('otf');
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Druk Cond Trial";
-  src: url("../fonts/DrukCond-Super-Trial.otf") format("truetype");
+  src: url('../fonts/DrukCond-Super-Trial.ttf') format('truetype'), url('../fonts/DrukCond-Super-Trial.otf') format('otf');
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 body {
-  font-family: "Gellix Theorem";
+  font-family: "Gellix Theorem", Arial, sans-serif;
   font-weight: 500;
 }
 h1,
