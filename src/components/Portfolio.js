@@ -105,7 +105,7 @@ const Portfolio = ({
                     stagger: .1,
                     scrollTrigger: {
                         trigger: '.portfolio__mobile .swiper-pagination',
-                        start: "-300px center",
+                        start: "-400px center",
                     }
                 });
                 gsap.from('.portfolio__mobile .portfolio__clients', {
@@ -116,7 +116,7 @@ const Portfolio = ({
                     stagger: .1,
                     scrollTrigger: {
                         trigger: '.portfolio__mobile .portfolio__clients',
-                        start: "-300px center",
+                        start: "-400px center",
                     }
                 });
                 gsap.to('.portfolio__mobile .portfolio__clients--cta', {
@@ -127,7 +127,7 @@ const Portfolio = ({
                     stagger: .1,
                     scrollTrigger: {
                         trigger: '.portfolio__mobile .portfolio__clients',
-                        start:'-300px bottom'
+                        start:'-400px bottom'
                     }
                 });
             }, 1000);
