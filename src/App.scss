@@ -87,7 +87,7 @@ main {
   //   position: absolute;
   //   transform-origin: center;
   //   animation: rotate 2s linear infinite;
-  //   background: linear-gradient(transparent, #FFAC4B);
+  //   background: linear-gradient(transparent, #1949FF);
   //   animation: bg-spin 15s linear infinite;
   //   // backdrop-filter: blur(7.5px);
   //   border-radius: 80px;
@@ -127,7 +127,7 @@ main {
         display: block;
         width: 26px;
         height: 2px;
-        background: #FFAC4B;
+        background: #1949FF;
         border-radius: 31px;
         transition: all 0.3s;
         &:not(:last-child) {
@@ -313,7 +313,7 @@ main {
   width: var(--size);
   height: var(--size);
   filter: blur(calc(var(--size) / 5));
-  background: linear-gradient(292.7deg, #ff9b26 14.54%, #FFAC4B 84.59%);
+  background: linear-gradient(292.7deg, #1949FF 14.54%, #1949FF 84.59%);
   animation: rotate var(--speed) alternate infinite;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   opacity: 0.5;
@@ -336,7 +336,7 @@ main {
   left: 0;
   width: 100%;
   height: 100vh;
-  background: #FFAC4B;
+  background: #1949FF;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -362,7 +362,7 @@ main {
       font-weight: 500;
       font-size: 112px;
       line-height: 115px;
-      color: $black;
+      color: $white;
       .char {
         display: inline-block;
         transform: translateY(105%);
@@ -650,7 +650,7 @@ main {
       // position: absolute;
       // transform-origin: center;
       // animation: rotate 2s linear infinite;
-      // background: linear-gradient(transparent, #FFAC4B);
+      // background: linear-gradient(transparent, #1949FF);
       // animation: bg-spin 15s linear infinite;
       // // backdrop-filter: blur(7.5px);
       // border-radius: 40px;
@@ -803,7 +803,7 @@ main {
             top: 50%;
             left: 50%;
             border-radius: 50%;
-            background: #FFAC4B;
+            background: #1949FF;
             filter: blur(3px);
             transform: translate(-50%, -50%);
             opacity: 0;
@@ -912,7 +912,7 @@ main {
             left: -10px;
             top: 50%;
             transform: translateY(-50%);
-            background: #FFAC4B;
+            background: #1949FF;
             opacity: 0;
           }
           &.active {
@@ -1169,7 +1169,7 @@ main {
     left: -10px;
     top: 50%;
     transform: translateY(-50%);
-    background: #FFAC4B;
+    background: #1949FF;
     opacity: 0;
     transition: all 0.3s;
   }
@@ -1182,7 +1182,7 @@ main {
     left: -10.5px;
     top: 50%;
     transform: translateY(-50%);
-    background: #FFAC4B;
+    background: #1949FF;
     filter: blur(3px);
     opacity: 0;
     transition: all 0.3s;
@@ -1444,7 +1444,7 @@ main {
     //   position: absolute;
     //   transform-origin: center;
     //   animation: rotate 2s linear infinite;
-    //   background: linear-gradient(transparent, #FFAC4B);
+    //   background: linear-gradient(transparent, #1949FF);
     //   animation: bg-spin 15s linear infinite;
     //   border-top-right-radius: 160px;
     //   border-bottom-right-radius: 160px;
@@ -1599,7 +1599,7 @@ main {
     width: var(--size);
     height: var(--size);
     filter: blur(calc(var(--size) / 5));
-    background: linear-gradient(292.7deg, #FFEB3B 14.54%, #FFC107 84.59%);
+    background: linear-gradient(292.7deg, #1949FF 14.54%, #1949FF 84.59%);
     animation: rotate var(--speed) alternate infinite;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     opacity: 0.5;
@@ -1823,7 +1823,7 @@ main {
         top: 50%;
         left: 50%;
         border-radius: 50%;
-        background: #FFAC4B;
+        background: #1949FF;
         filter: blur(3px);
         transform: translate(-50%, -50%);
         opacity: 0;
@@ -2266,7 +2266,7 @@ main {
   &__top {
     position: relative;
     padding: 350px 0 0;
-    background: #FFAC4B;
+    background: #1949FF;
     border-bottom-left-radius: 80px;
     border-bottom-right-radius: 80px;
     z-index: 2;
@@ -2286,8 +2286,14 @@ main {
       padding: 100px 0 0;
       border-bottom-left-radius: 30px;
       border-bottom-right-radius: 30px;
-      background: #FFAC4B;
+      background: #1949FF;
       margin-bottom: -50px;
+    }
+  }
+  .btntrans.bblack {
+    border-color: #ffffff;
+    &::before {
+      color: #ffffff;
     }
   }
   &__contactinfo {
@@ -2322,7 +2328,7 @@ main {
         top: 0;
         font-weight: 500;
         font-size: 42px;
-        color: $black;
+        color: $white;
         transform: translateY(200%);
         @media screen and (max-width: 575px) {
           font-size: 30px;
@@ -2352,7 +2358,7 @@ main {
         font-size: 18px;
         margin-bottom: 20px;
         text-align: right;
-        color: $black;
+        color: $white;
         @media screen and (max-width: 575px) {
           text-align: left;
           margin-top: 30px;
@@ -2363,7 +2369,7 @@ main {
         font-weight: 300;
         font-size: 16px;
         line-height: 30px;
-        color: $black;
+        color: $white;
         text-align: right;
         white-space: nowrap;
         @media screen and (max-width: 575px) {
@@ -2426,7 +2432,7 @@ main {
     width: var(--size);
     height: var(--size);
     filter: blur(calc(var(--size) / 5));
-    background: linear-gradient(292.7deg, #FFAC4B 14.54%, #FFAC4B 84.59%);
+    background: linear-gradient(292.7deg, #1949FF 14.54%, #1949FF 84.59%);
     animation: rotate var(--speed) alternate infinite;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     opacity: 0.5;
