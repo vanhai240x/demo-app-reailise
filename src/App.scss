@@ -11,6 +11,7 @@ $blackPrimary: #171514;
 $path: 0% 0, 80% 0, 100% 10%, 100% 100%, 20% 100%, 0 90%;
 ::selection {
   background: #1949FF;
+  color: #ffffff !important;
 }
 body {
   background: $white;
